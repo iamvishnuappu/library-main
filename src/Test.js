@@ -84,7 +84,7 @@ export default function Album() {
 
       setViewStatus(true);
 
-      let baseUrl = "http://openlibrary.org/search.json?q="
+      let baseUrl = "https://openlibrary.org/search.json?q="
       let key = searchKey.trim().replace("  ", " ").replace(/ /g, "+")
 
       await fetch(baseUrl+key)
