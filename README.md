@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Technical Question
+- ### 1. How long did you spend on the coding assignment? 
+    ``` 7-8 hrs ```
+    - a.	What would you add to your solution if you had more time?
+       - ``` will add pagination, one more page which displays full details about one book after selecting ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    - b.   If you didn't spend much time on the coding test, then use this as an opportunity to explain what you would add?
+       - ``` will have more pages with author details ```
+---
 
-## Available Scripts
+- ### 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
+    ``` Used React hooks which is not that latest but its a new feature we used ```
+---
 
-In the project directory, you can run:
+- ### 3. How would you track down a performance issue in production? Have you ever had to do this?
+    ``` Since the data returned from the API is large, there is a delay in showing the results, avoided unnecessary API calls ```
+---
 
-### `npm start`
+- ### 4. How would you improve the API that you just used?
+    ``` the open library API is returning large volumn of which needs some time to load, if we are managing the API we could have return only the relevant fields rather than returning all details ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ### 5. Please describe yourself using correctly formatted JSON.
 
-### `npm test`
+    ``` {
+   "Name" : "Name here",
+  "First_Name" : "Name",
+  "Last_Name" : "Here",
+  "Education" : [
+    "MCA","BCA"
+    ],
+  "Family": {
+    "Father" : "Name",
+    "Mother": "Name",
+    "Siblings" : [
+      "Brother name", "sister name"
+      ]
+  },
+  "Work_Experince": {
+    "Comapany name" :{
+      "Role" : "Developer",
+      "Experience" : "2 Year"
+    },
+    "Comapany name 2" :{
+      "Role" : "Developer",
+      "Experience" : "2 Year"
+    }
+  }
+  "Ambition": "desc here",
+  "About": "desc here" } ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
